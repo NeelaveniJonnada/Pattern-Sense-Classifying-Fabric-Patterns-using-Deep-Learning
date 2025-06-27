@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Pattern Sense</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1e1e1e;
+            background: linear-gradient(AliceBlue)
+        }
+
+        .navbar {
+            background-color: #092c36;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            color: white;
+            font-size: 22px;
+            margin: 2;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .about-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 60px 80px;
+            margin-top:70px;
+        }
+
+        .left-text {
+            flex: 1;
+            padding-right: 40px;
+        }
+
+        .left-text h2 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .left-text p {
+            font-size: 18px;
+            color: #3a3a3a;
+        }
+
+        .right-text {
+            flex: 1;
+            font-size: 16px;
+            color: #3d3d3d;
+            line-height: 1.6;
+        }
+
+        .right-text ul {
+            padding-left: 20px;
+            list-style: "✓ ";
+            margin-top: 10px;
+        }
+
+        .right-text em {
+            display: block;
+            margin-top: 20px;
+            color: #5a5a5a;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>PATTERN SENSE</h1>
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/contact">CONTACT</a></li>
+            <li><a href="/predict_page">GET STARTED</a></li>
+        </ul>
+    </div>
+
+    <section class="about-section">
+        <div class="left-text">
+            <h2>DISCOVER TEXTILE ELEGANCE: PATTERN SENSE UNVEILED.</h2>
+            <p>
+                With a blend of cutting-edge CNN technology and creative flair, this project delves into the rich tapestry of textile design, aiming to classify and decode an array of captivating patterns.
+            </p>
+        </div>
+        <div class="right-text">
+            <p>
+                By meticulously analyzing diverse datasets, “Pattern Sense” endeavors to unravel the distinct motifs, colors, and structures that define each fabric pattern. From timeless classics like paisley and houndstooth to contemporary marvels inspired by nature, this project navigates the intricate nuances of textile aesthetics with precision and insight.
+            </p>
+            <ul>
+                <li>Inspires designers with a vast array of categorized patterns for creative exploration.</li>
+                <li>Utilizes advanced CNNs to accurately classify various patterned fabrics.</li>
+                <li>Ensures consistency and quality in textile production by detecting pattern variations.</li>
+            </ul>
+            <em>
+                Empowered by state-of-the-art convolutional neural networks, “Pattern Sense” offers a glimpse into the captivating world of textile design. Imagine effortlessly discerning between florals, geometrics, and abstract prints, all through the lens of advanced image recognition technology.
+            </em>
+        </div>
+    </section>
+
+</body>
+</html>

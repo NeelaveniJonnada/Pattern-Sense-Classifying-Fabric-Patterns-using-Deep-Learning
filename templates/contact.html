@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Pattern Sense</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(AliceBlue)
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #092c36;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar h1 {
+      color: white;
+      font-size: 22px;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      margin: 0;
+    }
+
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    /* Page Heading */
+    .heading {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .heading h2 {
+      font-size: 28px;
+      color: #092c36;
+      margin-bottom: 10px;
+    }
+
+    .heading p {
+      color: #555;
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+
+    /* Map Section */
+    .map-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    iframe {
+      width: 90%;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    /* Contact Info */
+    .info-box {
+      display: flex;
+      justify-content: space-around;
+      background: white;
+      padding: 30px 20px;
+      width: 90%;
+      margin: 0 auto 50px auto;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    .info-column {
+      text-align: center;
+      flex: 1;
+    }
+
+    .info-column h4 {
+      color: #092c36;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .info-column p {
+      font-size: 14px;
+      color: #333;
+      margin: 0;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>PATTERN SENSE</h1>
+    <ul>
+      <li><a href="/">HOME</a></li>
+      <li><a href="/about">ABOUT</a></li>
+      <li><a href="/contact">CONTACT</a></li>
+      <li><a href="/predict_page">GET STARTED</a></li>
+    </ul>
+  </div>
+
+  <!-- Heading -->
+  <div class="heading">
+    <h2>CONTACT</h2>
+   <p>If you have any questions, feel free to reach out to us through the contact details below.</p>
+  </div>
+
+  <!-- Map -->
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3287833897014!2d78.36187957476658!3d17.442147101314842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e7163f6cb1%3A0x99944dbb7f742b7f!2sSmartInternz!5e0!3m2!1sen!2sin!4v1656057036001!5m2!1sen!2sin" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Info -->
+  <div class="info-box">
+    <div class="info-column">
+      <h4>Location:</h4>
+      <p>Kovvada<br>Bhimavaram, 534201</p>
+    </div>
+    <div class="info-column">
+      <h4>Email:</h4>
+      <p>info@example.com<br>contact@example.com</p>
+    </div>
+    <div class="info-column">
+      <h4>Call:</h4>
+      <p>+91 79893689XX<br>+91 93503063XX</p>
+    </div>
+  </div>
+
+</body>
+</html>

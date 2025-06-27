@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pattern Sense</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(AliceBlue) no-repeat center center/cover;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #092c36;
+        }
+
+        .navbar h1 {
+            font-size: 24px;
+            margin: 2;
+            color: white;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .main-content h2 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color:black;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            width: 100%;
+            color:black;
+        }
+
+        .btn {
+            padding: 10px 25px;
+            background-color: #003049;
+            border: 2px solid white;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>PATTERN SENSE</h1>
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/contact">CONTACT</a></li>
+                <li><a href="/predict_page">GET STARTED</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2>EASY START WITH PATTERN SENSE</h2>
+            <p>"Pattern Sense" harnesses cutting-edge convolutional neural networks to unveil the enchanting realm of textile design.</p>
+            <a href="/predict_page" class="btn">GET STARTED</a>
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Classification | Pattern Sense</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(AliceBlue)
+        }
+
+        .navbar {
+            background-color: #082f44;
+            padding: 15px 40px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            margin: 2;
+            font-size: 22px;
+            letter-spacing: 2px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+        .main {
+            text-align: center;
+            padding: 50px 20px;
+            margin-top:50px;
+        }
+
+        .main h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .form-section {
+            margin-top: 30px;
+        }
+
+        input[type="file"] {
+            padding: 8px;
+            width: 300px;
+        }
+
+        .predict-btn {
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #082f44;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .predict-btn:hover {
+            background-color: #0c3f5c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>PATTERN SENSE</h1>
+        <div class="nav-links">
+            <a href="/">HOME</a>
+            <a href="/about">ABOUT</a>
+            <a href="/contact">CONTACT</a>
+            <a href="/predict_page">GET STARTED</a>
+        </div>
+    </div>
+
+
+    <!-- Main Upload Section -->
+    <div class="main">
+        <h2>Image Classfication</h2>
+        <div class="form-section">
+            <form action="/predict" method="POST" enctype="multipart/form-data">
+                <label>Upload Your Image :</label><br><br>
+                <input type="file" name="ump_image" required><br>
+                <button type="submit" class="predict-btn">Predict</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
+

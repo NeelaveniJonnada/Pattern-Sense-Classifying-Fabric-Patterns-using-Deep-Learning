@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result | Pattern Sense</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(AliceBlue)
+        }
+
+        .navbar {
+            background-color: #2c4b57;
+            padding: 15px 40px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h2 {
+            margin: 2;
+            font-size: 22px;
+            letter-spacing: 2px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .container {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .container h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .pattern-image {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #444;
+        }
+
+        .result span {
+            font-style: italic;
+            font-weight: bold;
+            color: #2c4b57;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #082f44;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background-color: #10415d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h2>PATTERN SENSE</h2>
+        <div class="nav-links">
+            <a href="/">HOME</a>
+            <a href="/about">ABOUT</a>
+            <a href="/contact">CONTACT</a>
+            <a href="/predict_page">GET STARTED</a>
+        </div>
+    </div>
+
+    <!-- Result Section -->
+    <div class="container">
+        <h2>Image Classification</h2>
+        <img src="{{ img_path }}" class="pattern-image" alt="Uploaded Pattern Image">
+        <p class="result">The Pattern is : {{ true_label }}</p>
+        <a href="/predict_page" class="btn">Try with another image!</a>
+    </div>
+
+</body>
+</html>
