@@ -115,7 +115,9 @@ The CNN model is trained on a labeled dataset of fabric images categorized as:
 * Cloud deployment (Render, Firebase, etc.)
 
 ---
+## 🌐 Live Demo
 
+👉 [Click here to try the app](https://www.youtube.com/watch?v=u5t3oczmFHA)
 ## 👩‍💻 Author
 
 **Jonnada Neelaveni**
