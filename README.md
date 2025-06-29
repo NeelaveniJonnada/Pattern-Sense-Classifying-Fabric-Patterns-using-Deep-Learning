@@ -63,7 +63,9 @@ venv\Scripts\activate       # For Windows
 ### 3. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt or
+pip install flask keras tensorflow
+
 ```
 
 ### 4. Run the App
