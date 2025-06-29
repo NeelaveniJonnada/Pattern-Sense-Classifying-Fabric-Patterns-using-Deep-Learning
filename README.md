@@ -118,7 +118,7 @@ The CNN model is trained on a labeled dataset of fabric images categorized as:
 
 **Jonnada Neelaveni**
 Vishnu Institute of Technology
-[LinkedIn](https://linkedin.com/) *(Add if available)*
+[LinkedIn](https://www.linkedin.com/in/neelaveni-jonnada-901ba02ab/) 
 
 ---
 
