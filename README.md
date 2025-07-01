@@ -82,6 +82,17 @@ Open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 ### 4. Output
 ![image](https://github.com/user-attachments/assets/8c240fb2-285a-4981-aecb-bb5727ba4290)
 
+![image](https://github.com/user-attachments/assets/8b4a5329-af44-48db-a97c-4bc46ed7cb49)
+
+![image](https://github.com/user-attachments/assets/8e1cd8e2-814a-4dba-adfe-5a35680cec25)
+
+![image](https://github.com/user-attachments/assets/202b0c4d-7ca3-4f3d-bd6f-220cbb843c80)
+
+![image](https://github.com/user-attachments/assets/36509160-c4a3-47ff-b14c-fcfedc7733e6)
+
+
+![Screenshot 2025-06-29 211244](https://github.com/user-attachments/assets/d0d1b57a-35e5-4a20-970f-306794783cfa)
+
 
 ## 🧠 Technologies Used
 
