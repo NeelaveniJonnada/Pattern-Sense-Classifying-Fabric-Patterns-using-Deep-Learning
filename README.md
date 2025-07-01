@@ -87,13 +87,13 @@ Open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 Home Page:
 ![image](https://github.com/user-attachments/assets/8b4a5329-af44-48db-a97c-4bc46ed7cb49)
 
-About Page
+About Page:
 ![image](https://github.com/user-attachments/assets/8e1cd8e2-814a-4dba-adfe-5a35680cec25)
 
-Contact Page
+Contact Page:
 ![image](https://github.com/user-attachments/assets/202b0c4d-7ca3-4f3d-bd6f-220cbb843c80)
 
-Get Started Page
+Get Started Page:
 ![image](https://github.com/user-attachments/assets/36509160-c4a3-47ff-b14c-fcfedc7733e6)
 
 Result:
