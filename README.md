@@ -78,6 +78,11 @@ Open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
+
+### 4. Output
+![image](https://github.com/user-attachments/assets/8c240fb2-285a-4981-aecb-bb5727ba4290)
+
+
 ## 🧠 Technologies Used
 
 * **Frontend**: HTML, CSS, Bootstrap
